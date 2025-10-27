@@ -29,7 +29,43 @@
 
   </nav>
 
-    <section class="service-detail"></section>
+    <section class="hero">
+    <div class="hero-text">
+      <h2>Reserve Your Luxury Experience</h2>
+      <p>Book your stay, dining, or transportation with ease. Your curated experience awaits.</p>
+    </div>
+  </section>
+
+  <!-- Booking Form -->
+  <section class="booking-form">
+    <form action="#" method="POST">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+      <label for="service">Service</label>
+      <select id="service" name="service" required>
+        <option value="">Select a service</option>
+        <option value="hotel">Hotel</option>
+        <option value="dining">Dining</option>
+        <option value="mall">Mall</option>
+        <option value="transportation">Transportation</option>
+      </select>
+
+      <label for="date">Preferred Date</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time">Preferred Time</label>
+      <input type="time" id="time" name="time">
+
+      <label for="message">Additional Requests</label>
+      <textarea id="message" name="message" placeholder="Any special requests..."></textarea>
+
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
     
 </body>
 </html>
